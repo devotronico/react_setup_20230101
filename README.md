@@ -23,6 +23,7 @@ npm install -D @testing-library/react
 npm install -D @testing-library/jest-dom
 npm install -D jsdom
 npm install react-router-dom
+npm install -D husky@latest
 npx husky-init && npm install
 ```
 1
