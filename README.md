@@ -26,3 +26,4 @@ npm install react-router-dom
 npx husky-init && npm install
 ```
 1
+2
