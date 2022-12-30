@@ -3,6 +3,10 @@ import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 
+const myFunc = (value: number) => {
+  return 1 + 2;
+};
+
 export function App() {
   return (
     <Routes>
