@@ -1,12 +1,11 @@
-
-
-
-
 ### setup
+
 D:\Sviluppo-Web-2\React-TS\setup_2022-12-27
+https://github.com/saifbechan/nextjs-ts-eslint-chakraui-vitest-playwright
 https://www.youtube.com/watch?v=cchqeWY0Nak&ab_channel=CodingGarden
 https://www.youtube.com/watch?v=R8HcBz2wlt0&ab_channel=JavaScriptTalks
 https://www.youtube.com/watch?v=ChKBhmsnXKI&ab_channel=JavaScriptTalks
+
 ```
 git init
 npm create vite@latest
@@ -26,5 +25,3 @@ npm install react-router-dom
 npm install -D husky@latest
 npx husky-init && npm install
 ```
-1
-2

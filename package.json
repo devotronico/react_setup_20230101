@@ -11,6 +11,8 @@
     "test:ci": "vitest run",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
+    "format:write": "prettier --write .",
+    "format:check": "prettier --check .",
     "prepare": "husky install"
   },
   "dependencies": {
