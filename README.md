@@ -1,6 +1,17 @@
 
 
-## react_setup_20221227
+## react_setup_20230101
+
+---
+## note
+setup del 2023-01-01 con:
+- react
+- typescript
+- vite
+- vitest
+- prettier
+- eslint
+- husky
 
 ---
 ### percorso-del-progetto
