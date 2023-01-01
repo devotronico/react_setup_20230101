@@ -19,6 +19,7 @@ D:\Sviluppo-Web-2\React-TS\setup_2022-12-27
 
 ---
 ### reference
+https://dev.to/samueldjones/run-a-typescript-type-check-in-your-pre-commit-hook-using-lint-staged-husky-30id
 https://medium.com/@byeduardoac/analysing-slowness-pre-commit-setup-4b2b07de6569
 https://www.youtube.com/watch?v=_ssKvmZqSnk&ab_channel=MonsterlessonsAcademy
 https://github.com/saifbechan/nextjs-ts-eslint-chakraui-vitest-playwright
