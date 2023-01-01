@@ -1,8 +1,14 @@
+
+
+## react_setup_20221227
+
+---
 ### percorso-del-progetto
 D:\Sviluppo-Web-2\React-TS\setup_2022-12-27
 
 ---
 ### reference
+https://medium.com/@byeduardoac/analysing-slowness-pre-commit-setup-4b2b07de6569
 https://www.youtube.com/watch?v=_ssKvmZqSnk&ab_channel=MonsterlessonsAcademy
 https://github.com/saifbechan/nextjs-ts-eslint-chakraui-vitest-playwright
 https://www.youtube.com/watch?v=cchqeWY0Nak&ab_channel=CodingGarden
@@ -31,4 +37,5 @@ npm install -D husky@latest
 npx husky-init && npm install
 npm install -D lint-staged
 ```
+
 
