@@ -11,21 +11,20 @@ setup del 2023-01-01 con:
 - vitest
 - prettier
 - eslint
+- lint-staged
 - husky
 
 ---
 ### percorso-del-progetto
-D:\Sviluppo-Web-2\React-TS\setup_2022-12-27
+D:\Sviluppo-Web-2\React-TS\react_setup_20230101
 
 ---
 ### reference
+https://strdr4605.com/optional-pre-commit-checks-with-husky
+https://javascript.plainenglish.io/create-a-pre-commit-git-hook-to-check-and-fix-your-javascript-typescript-code-b04de61834bd
 https://dev.to/samueldjones/run-a-typescript-type-check-in-your-pre-commit-hook-using-lint-staged-husky-30id
 https://medium.com/@byeduardoac/analysing-slowness-pre-commit-setup-4b2b07de6569
-https://www.youtube.com/watch?v=_ssKvmZqSnk&ab_channel=MonsterlessonsAcademy
 https://github.com/saifbechan/nextjs-ts-eslint-chakraui-vitest-playwright
-https://www.youtube.com/watch?v=cchqeWY0Nak&ab_channel=CodingGarden
-https://www.youtube.com/watch?v=R8HcBz2wlt0&ab_channel=JavaScriptTalks
-https://www.youtube.com/watch?v=ChKBhmsnXKI&ab_channel=JavaScriptTalks
 
 ---
 ### setup
@@ -49,5 +48,3 @@ npm install -D husky@latest
 npx husky-init && npm install
 npm install -D lint-staged
 ```
-
-
