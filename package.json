@@ -12,11 +12,15 @@
     "coverage": "vitest run --coverage",
     "lint": "eslint --fix --max-warnings=0",
     "format": "prettier --write",
+    "typecheck": "tsc --noEmit --jsx react",
     "prepare": "husky install"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "npm run lint", 
+      "git add"
+    ],
+    "src/**/*.{ts,tsx,css,html}": [
       "npm run format", 
       "git add"
     ]

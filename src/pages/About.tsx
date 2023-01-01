@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function About() {
+export function About() {
   const myFunc = (a: number, b: number) => {
     return a + b;
   };
@@ -10,9 +10,7 @@ function About() {
     <div>
       <h1>About</h1>
       <Link to='/'>Home</Link> | <Link to='/about'>About</Link> | <Link to='/contact'>Contact</Link>
-      <p>{myFunc(1, '2')}</p>
+      <p>{myFunc(1, '3')}</p>
     </div>
   );
 }
-
-export default About;
