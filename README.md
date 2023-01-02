@@ -28,6 +28,7 @@ D:\Sviluppo-Web-2\React-TS\react_setup_20230101
 
 ---
 ### reference
+https://github.com/conventional-changelog/commitlint#shared-configuration
 https://blog.devgenius.io/find-out-how-to-ensure-your-git-branch-name-is-valid-6930639eaaaa
 https://www.git-tower.com/blog/git-hooks-husky/
 https://strdr4605.com/optional-pre-commit-checks-with-husky
@@ -67,3 +68,27 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ### regex-per-il-nome-del-branch
 /^(master|develop){1}$|^(feature|chore|fix)/([\\w\\-\\d]+)/(ITEM|TIKET)-([\\w\\-\\d]+)$/
 feature/username/ITEM-123456-new-username-label-1
+
+
+
+---
+### old
+vecchia configurazione di linta-staged nel file package.json
+```json
+"lint-staged": {
+    "src/**/*.{ts,tsx}": [
+        "npm run lint",
+        "git add"
+    ],
+    "src/**/*.{ts,tsx,css,html}": [
+        "npm run format",
+        "git add"
+    ]
+},
+```
+
+---
+### da-risolvere
+lint-staged generate too much output
+excessive output when invoked through pre-commit script
+https://github.com/okonet/lint-staged/issues/1164

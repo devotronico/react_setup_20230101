@@ -1,5 +1,5 @@
 const prefixes = ['all', 'web', 'mobile'];
-const scopes = ['home', 'about', 'contact', 'news'];
+const scopes = ['doc', 'home', 'about', 'contact', 'news'];
 const arr = scopes.map(s => prefixes.map(p => `${p}-${s}`));
 
 const prefixed = arr.flat();
