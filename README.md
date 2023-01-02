@@ -58,6 +58,9 @@ npm install -D husky@latest
 npx husky-init && npm install
 npm install -D lint-staged
 npm install -D validate-branch-name 
+npm install -D @commitlint/config-conventional @commitlint/cli
+echo "module.exports = { extends: ['@commitlint/config-conventional'] };" > commitlint.config.js
+npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ```
 
 ---

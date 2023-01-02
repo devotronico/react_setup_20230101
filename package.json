@@ -22,11 +22,11 @@
     ],
     "src/**/*.{ts,tsx,css,html}": [
       "npm run format",
-      "git add" 
+      "git add"
     ]
   },
   "validate-branch-name": {
-    "pattern": "^(master|develop){1}$|^(feature|chore|fix)\/([\\w\\-\\d]+)\/(ITEM|TIKET)-([\\w\\-\\d]+)$",
+    "pattern": "^(master|develop){1}$|^(feature|chore|fix)/([\\w\\-\\d]+)/(ITEM|TIKET)-([\\w\\-\\d]+)$",
     "errorMsg": "Please follow standard branch name, rename branch using: git branch -m <oldname> <newname>"
   },
   "dependencies": {
@@ -35,6 +35,8 @@
     "react-router-dom": "^6.6.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/react": "^18.0.26",
