@@ -12,6 +12,7 @@ setup del 2023-01-01 con:
 - prettier
 - eslint
 - lint-staged
+- validate-branch-name
 - husky
 
 ---
