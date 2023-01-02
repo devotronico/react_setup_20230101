@@ -65,12 +65,5 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 ---
 ### regex-per-il-nome-del-branch
-^(master|develop){1}$|^(feature|chore|fix)\/([\\w\\-\\d]+)\/(JIRA|TIKET)-([\\w\\-\\d]+)$
-/^(master|develop){1}$|^(feature|chore|fix)\/([\/\w\\-\\d]+)\/(JIRA|TIKET|ITEM)-(\d{6})-([\w\-\d]+)$/
+/^(master|develop){1}$|^(feature|chore|fix)/([\\w\\-\\d]+)/(ITEM|TIKET)-([\\w\\-\\d]+)$/
 feature/username/ITEM-123456-new-username-label-1
-
-
-/^(master|develop){1}$|^(feature|chore|fix)\/([\/\w\\-\\d]+)\/(JIRA|TIKET)-([\w\-\d]+)$/
-feature/username/JIRA-123-new-username-label
-
-/^(master|main|develop){1}$|^(feature|fix|hotfix|release)\/.+$/g

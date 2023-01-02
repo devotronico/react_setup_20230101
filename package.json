@@ -17,12 +17,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "npm run lint",
-      "git add"
-    ],
-    "src/**/*.{ts,tsx,css,html}": [
-      "npm run format",
-      "git add"
+      "npm run lint"
     ]
   },
   "validate-branch-name": {
