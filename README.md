@@ -14,14 +14,20 @@ setup del 2023-01-01 con:
 - lint-staged
 - validate-branch-name
 - husky
+- semantic-release
 
 ---
-## todo
+### todo
 - Validating Branch Names
+
 - Linting Commit Messages
+
 - Compressing Staged Images
+
 - Skipping Hooks
+
 - bloccare i push sul ramo master
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches
 
 ---
 ### percorso-del-progetto
@@ -142,6 +148,7 @@ fix(all-home): add the date
 fix(all-home): add the date
 docs(all-doc): edd details for the commits
 fix(all-about): fix the second argument type passed to the function myFunc
+chore(all-global): fix the name of the lib semantic-release
 ```
 
 ---
