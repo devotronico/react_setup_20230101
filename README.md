@@ -3,8 +3,11 @@
 ## react_setup_20230101
 
 ---
-## note
-setup del 2023-01-01 con:
+### note
+setup 
+iniziato il 2023-01-01 e 
+aggiornato il 2023-01-07 
+con le seguenti librerie:
 - react
 - typescript
 - vite
@@ -14,14 +17,20 @@ setup del 2023-01-01 con:
 - lint-staged
 - validate-branch-name
 - husky
+- semantic-release
 
 ---
-## todo
+### todo
 - Validating Branch Names
+
 - Linting Commit Messages
+
 - Compressing Staged Images
+
 - Skipping Hooks
+
 - bloccare i push sul ramo master
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches
 
 ---
 ### percorso-del-progetto
@@ -41,120 +50,11 @@ https://medium.com/@byeduardoac/analysing-slowness-pre-commit-setup-4b2b07de6569
 https://github.com/saifbechan/nextjs-ts-eslint-chakraui-vitest-playwright
 
 ---
-### versioning
-https://github.com/open-sauced/semantic-release-conventional-config
-https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/
-https://levelup.gitconnected.com/improve-your-commits-and-versioning-in-javascript-56f72c0ab761
-
----
-### setup
-setup react vite con typescript:
-```
-git init
-npm create vite@latest
-npm install
-```
-
-setup eslint e prettier:
-```
-npm install -D eslint
-npx eslint --init
-npm install -D eslint-config-airbnb-typescript
-npm install -D prettier
-npm install -D eslint-plugin-prettier
-npm install -D eslint-config-prettier
-touch .prettierrc.cjs
-```
-
-setup testing:
-```
-npm install -D vitest
-npm install -D @testing-library/react
-npm install -D @testing-library/jest-dom
-npm install -D jsdom
-```
-
-setup routing:
-```
-npm install react-router-dom
-```
-
-setup husky con lint-staged e validate-branch-name
-```
-npm install -D husky@latest
-npx husky-init && npm install
-npm install -D lint-staged
-npm install -D validate-branch-name
-```
-
-setup commitlint per husky: 
-```
-npm install -D @commitlint/config-conventional @commitlint/cli
-echo "module.exports = { extends: ['@commitlint/config-conventional'] };" > commitlint.config.js
-npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
-```
-
-setup semantic-release e github actions: 
-```
-npm install -D semantic-release @semantic-release/git @semantic-release/github
-touch release.config.js
-mkdir -p .github/workflows && touch .github/workflows/release.yml
-```
-
----
-### regex-per-il-nome-del-branch
-/^(master|develop){1}$|^(feature|chore|fix)/([\\w\\-\\d]+)/(ITEM|TIKET)-([\\w\\-\\d]+)$/
-
-crea il ramo develop:
-```
-git checkout -b develop
-```
-
-crea il ramo feature/username/ITEM-123456-new-username-label-1:
-```
-git checkout -b feature/username/ITEM-123456-new-username-label-1
-```
-
----
-### commit_scopes
-all-global
-all-doc
-all-home
-all-about
-
-web-global
-web-doc
-web-home
-web-about
-
-mobile-global
-mobile-doc
-mobile-home
-mobile-about
-
-Esempio:
-```
-feat(all-doc): expand the documentation
-```
-
----
-### old
-vecchia configurazione di linta-staged nel file package.json
-```json
-"lint-staged": {
-    "src/**/*.{ts,tsx}": [
-        "npm run lint",
-        "git add"
-    ],
-    "src/**/*.{ts,tsx,css,html}": [
-        "npm run format",
-        "git add"
-    ]
-},
-```
-
----
 ### da-risolvere
 lint-staged generate too much output
 excessive output when invoked through pre-commit script
 https://github.com/okonet/lint-staged/issues/1164
+
+```js
+message: `chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}`,
+```

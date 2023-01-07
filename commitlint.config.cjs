@@ -1,6 +1,13 @@
 const prefixes = ['all', 'web', 'mobile'];
-const scopes = ['global', 'doc', 'home', 'about'];
-const arr = scopes.map(s => prefixes.map(p => `${p}-${s}`));
+const scopes = ['release', 'global', 'doc', 'home', 'about'];
+const arr = scopes.map(scope =>
+  prefixes.map(prefix => {
+    if (prefix) {
+      return `${prefix}-${scope}`;
+    }
+    return scope;
+  }),
+);
 
 const prefixed = arr.flat();
 
