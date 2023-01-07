@@ -48,10 +48,15 @@ https://levelup.gitconnected.com/improve-your-commits-and-versioning-in-javascri
 
 ---
 ### setup
+setup react vite con typescript:
 ```
 git init
 npm create vite@latest
 npm install
+```
+
+setup eslint e prettier:
+```
 npm install -D eslint
 npx eslint --init
 npm install -D eslint-config-airbnb-typescript
@@ -59,33 +64,78 @@ npm install -D prettier
 npm install -D eslint-plugin-prettier
 npm install -D eslint-config-prettier
 touch .prettierrc.cjs
+```
+
+setup testing:
+```
 npm install -D vitest
 npm install -D @testing-library/react
 npm install -D @testing-library/jest-dom
 npm install -D jsdom
+```
+
+setup routing:
+```
 npm install react-router-dom
+```
+
+setup husky con lint-staged e validate-branch-name
+```
 npm install -D husky@latest
 npx husky-init && npm install
 npm install -D lint-staged
-npm install -D validate-branch-name 
+npm install -D validate-branch-name
+```
+
+setup commitlint per husky: 
+```
 npm install -D @commitlint/config-conventional @commitlint/cli
 echo "module.exports = { extends: ['@commitlint/config-conventional'] };" > commitlint.config.js
 npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+```
+
+setup semantic-release e github actions: 
+```
 npm install -D semantic-release @semantic-release/git @semantic-release/github
 touch release.config.js
 mkdir -p .github/workflows && touch .github/workflows/release.yml
 ```
 
-
-
-
-
 ---
 ### regex-per-il-nome-del-branch
 /^(master|develop){1}$|^(feature|chore|fix)/([\\w\\-\\d]+)/(ITEM|TIKET)-([\\w\\-\\d]+)$/
-feature/username/ITEM-123456-new-username-label-1
 
+crea il ramo develop:
+```
+git checkout -b develop
+```
 
+crea il ramo feature/username/ITEM-123456-new-username-label-1:
+```
+git checkout -b feature/username/ITEM-123456-new-username-label-1
+```
+
+---
+### commit_scopes
+all-global
+all-doc
+all-home
+all-about
+
+web-global
+web-doc
+web-home
+web-about
+
+mobile-global
+mobile-doc
+mobile-home
+mobile-about
+
+Esempio:
+```
+feat(all-doc): expand the documentation
+```
 
 ---
 ### old
