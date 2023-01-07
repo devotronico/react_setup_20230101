@@ -132,12 +132,15 @@ mobile-doc
 mobile-home
 mobile-about
 
-Esempio:
+Esempi di commit validi:
 ```
 feat(all-doc): expand the documentation
 feat(all-home): add the author
 
 BREAKING CHANGE: insert my name as author
+fix(all-home): add the date
+fix(all-home): add the date
+docs(all-doc): edd details for the commits
 ```
 
 ---
