@@ -6,7 +6,7 @@ function Home() {
     <div>
       <h1>Hello World</h1>
       <Link to='/'>Home</Link> | <Link to='/about'>About</Link> | <Link to='/contact'>Contact</Link>
-      <p>sito creato da Daniele</p>
+      <p>sito creato da Daniele 2022</p>
     </div>
   );
 }
