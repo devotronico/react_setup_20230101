@@ -10,7 +10,7 @@ export function About() {
     <div>
       <h1>About</h1>
       <Link to='/'>Home</Link> | <Link to='/about'>About</Link> | <Link to='/contact'>Contact</Link>
-      <p>{myFunc(1, '3')}</p>
+      <p>{myFunc(1, 3)}</p>
     </div>
   );
 }

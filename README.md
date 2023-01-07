@@ -141,6 +141,7 @@ BREAKING CHANGE: insert my name as author
 fix(all-home): add the date
 fix(all-home): add the date
 docs(all-doc): edd details for the commits
+fix(all-about): fix the second argument type passed to the function myFunc
 ```
 
 ---
