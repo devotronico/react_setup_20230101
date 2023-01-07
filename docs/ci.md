@@ -15,6 +15,23 @@ git checkout -b feature/username/ITEM-123456-new-username-label-1
 ```
 
 ---
+### commit_type
+https://www.npmjs.com/package/@commitlint/config-conventional
+```
+- build:    Changes that affect the build system or external dependencies      
+- chore:    changes that do not relate to a fix or feature and don't modify src or test files (for example updating dependencies)
+- ci:       Changes to our CI configuration files and scripts
+- docs:     changes in documentation
+- feat:     a new feature
+- fix:      a bug fix
+- perf:     improve performance
+- refactor: modifiche che non risolvono un bug o aggiungono funzionalità
+- revert:   reverts a previous commit
+- style:    everything related to styling
+- test:     everything related to testing
+```
+
+---
 ### commit_scopes
 release
 
@@ -33,8 +50,10 @@ mobile-doc
 mobile-home
 mobile-about
 
-commit validi e eseguiti:
+---
+### commit_validi-e-eseguiti
 ```
+chore(all-global): update "actions/checkout" and "actions/setup-node" from version 2 to 3
 docs(all-doc): create folder "docs" with files "ci.md", "setup.md" and "trash.md"
 fix(all-global): rename the extension of the file "release.config.js" from "js" to "cjs"
 fix(all-global): fix the version of nodejs to the version 18.12.1
@@ -44,7 +63,4 @@ docs(all-doc): edd details for the commits
 fix(all-home): add the date
 feat(all-home): add the author BREAKING CHANGE: insert my name as author
 feat(all-doc): expand the documentation
-
-
-
 ```
