@@ -3,8 +3,11 @@
 ## react_setup_20230101
 
 ---
-## note
-setup del 2023-01-01 con:
+### note
+setup 
+iniziato il 2023-01-01 e 
+aggiornato il 2023-01-07 
+con le seguenti librerie:
 - react
 - typescript
 - vite
@@ -149,11 +152,12 @@ fix(all-home): add the date
 docs(all-doc): edd details for the commits
 fix(all-about): fix the second argument type passed to the function myFunc
 chore(all-global): fix the name of the lib semantic-release
+fix(all-global): fix the version of nodejs to the version 18.12.1
 ```
 
 ---
 ### old
-vecchia configurazione di linta-staged nel file package.json
+vecchia configurazione di lint-staged nel file package.json
 ```json
 "lint-staged": {
     "src/**/*.{ts,tsx}": [
