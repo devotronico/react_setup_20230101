@@ -7,7 +7,8 @@ const config = {
       '@semantic-release/git',
       {
         assets: ['dist/*.js', 'dist/*.js.map'],
-        message: 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+        // eslint-disable-next-line no-undef
+        message: `chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}`,
       },
     ],
     '@semantic-release/github',

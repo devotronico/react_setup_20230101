@@ -21,6 +21,7 @@ setup del 2023-01-01 con:
 - Linting Commit Messages
 - Compressing Staged Images
 - Skipping Hooks
+- bloccare i push sul ramo master
 
 ---
 ### percorso-del-progetto
