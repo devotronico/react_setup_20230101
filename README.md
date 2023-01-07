@@ -135,6 +135,9 @@ mobile-about
 Esempio:
 ```
 feat(all-doc): expand the documentation
+feat(all-home): add the author
+
+BREAKING CHANGE: insert my name as author
 ```
 
 ---
