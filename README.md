@@ -153,6 +153,7 @@ docs(all-doc): edd details for the commits
 fix(all-about): fix the second argument type passed to the function myFunc
 chore(all-global): fix the name of the lib semantic-release
 fix(all-global): fix the version of nodejs to the version 18.12.1
+fix(all-global): rename the extension of the file "release.config.js" from "js" to "cjs"
 ```
 
 ---
