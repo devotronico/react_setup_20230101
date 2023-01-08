@@ -65,3 +65,11 @@ npm install -D semantic-release @semantic-release/git @semantic-release/changelo
 touch release.config.cjs
 mkdir -p .github/workflows && touch .github/workflows/release.yml
 ```
+
+NOTE:
+1) Il comando `semantic-release` deve essere eseguito solo dopo che tutti i test nella build CI sono stati superati.
+
+2) `semantic-release` richiede l'accesso push al repository Git del progetto per creare i `tag` di Git. L'autenticazione Git può essere impostata con la variabile di ambiente `GITHUB_TOKEN`
+
+release-\d+\.\d+\.\d*
+release-1.2.3
