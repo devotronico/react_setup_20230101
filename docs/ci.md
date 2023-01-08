@@ -53,9 +53,10 @@ mobile-about
 ---
 ### commit_validi-e-eseguiti
 ```
-feat(all-global): generic commit
+feat(all-global): activate workflow on branch develop
 
-BREAKING CHANGE: this is a test
+BREAKING CHANGE
+feat(all-global): generic commit BREAKING CHANGE: this is a test
 feat(all-global): edited the file "release.yml" BREAKING CHANGE: update the prop "on"
 chore(all-global): update "actions/checkout" and "actions/setup-node" from version 2 to 3
 docs(all-doc): create folder "docs" with files "ci.md", "setup.md" and "trash.md"
