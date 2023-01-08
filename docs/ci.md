@@ -14,6 +14,11 @@ crea il ramo feature/username/ITEM-123456-new-username-label-1:
 git checkout -b feature/username/ITEM-123456-new-username-label-1
 ```
 
+crea il ramo feature/home/ITEM-123456-lastname:
+```
+git checkout -b feature/home/ITEM-123456-lastname
+```
+
 ---
 ### commit_type
 https://www.npmjs.com/package/@commitlint/config-conventional

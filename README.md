@@ -21,15 +21,17 @@ con le seguenti librerie:
 
 ---
 ### todo
-- Validating Branch Names
+- [x] Validating Branch Names
 
-- Linting Commit Messages
+- [x] Linting Commit Messages
 
-- Compressing Staged Images
+- [ ] Activating github action on pull request on branch develop
 
-- Skipping Hooks
+- [ ] Compressing Staged Images
 
-- bloccare i push sul ramo master
+- [ ] Skipping Hooks
+
+- [ ] Bloccare i push sul ramo master
 https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches
 
 ---
