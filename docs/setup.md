@@ -54,7 +54,8 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ```
 
 ---
-### setup_semantic-release_e_github-actions: 
+### setup_semantic-release_e_github-actions:
+https://www.youtube.com/watch?v=mah8PV6ugNY&t=1086s&ab_channel=Dave%27sDevChannel 
 https://github.com/open-sauced/semantic-release-conventional-config
 https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/
 https://levelup.gitconnected.com/improve-your-commits-and-versioning-in-javascript-56f72c0ab761
