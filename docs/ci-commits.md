@@ -26,6 +26,8 @@ page
 ---
 ### commit_validi-e-eseguiti
 ```
+ci(global): update the file release.config
+docs(global): update ci documentation files
 chore(global): install library @semantic-release/changelog
 fix(global): replace the char endline with CRLF in the file release.config
 chore(global): change the eslint rule "linebreak-style"
