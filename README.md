@@ -25,7 +25,7 @@ con le seguenti librerie:
 
 - [x] Linting Commit Messages
 
-- [ ] Activating github action on pull request on branch develop
+- [x] Activating github action on pull request on branch develop
 
 - [ ] Compressing Staged Images
 
