@@ -1,17 +1,5 @@
-## ci
+## commits
 
----
-### regex-per-il-nome-del-branch
-/^(master|develop){1}$|^(feature|chore|fix)/([\\w\\-\\d]+)/(ITEM|TIKET)-([\\w\\-\\d]+)$/
-
-rami creati e validi:
-develop
-feature/username/ITEM-123456-new-username-label-1
-feature/home/ITEM-123456-lastname
-feature/about/ITEM-123456-description
-feature/global/ITEM-123456-semantic-release-config
-
----
 ### commit_type
 https://www.npmjs.com/package/@commitlint/config-conventional
 ```
@@ -31,25 +19,18 @@ https://www.npmjs.com/package/@commitlint/config-conventional
 ---
 ### commit_scopes
 release
-
-all-global
-all-doc
-all-home
-all-about
-
-web-global
-web-doc
-web-home
-web-about
-
-mobile-global
-mobile-doc
-mobile-home
-mobile-about
+global
+doc
+page
 
 ---
 ### commit_validi-e-eseguiti
 ```
+chore(global): install library @semantic-release/changelog
+fix(global): replace the char endline with CRLF in the file release.config
+chore(global): change the eslint rule "linebreak-style"
+fix(global): replace the char endline with CRLF in the file commitlint.config
+chore(global): update the regex to validate branch naming
 feat(global): activate semantic-release action on merging feature branch on branch develop
 chore(global): update release.yml github action file
 docs(global): update ci.md file
