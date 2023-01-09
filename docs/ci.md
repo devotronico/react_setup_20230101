@@ -4,20 +4,11 @@
 ### regex-per-il-nome-del-branch
 /^(master|develop){1}$|^(feature|chore|fix)/([\\w\\-\\d]+)/(ITEM|TIKET)-([\\w\\-\\d]+)$/
 
-crea il ramo develop:
-```
-git checkout -b develop
-```
-
-crea il ramo feature/username/ITEM-123456-new-username-label-1:
-```
-git checkout -b feature/username/ITEM-123456-new-username-label-1
-```
-
-crea il ramo feature/home/ITEM-123456-lastname:
-```
-git checkout -b feature/home/ITEM-123456-lastname
-```
+rami creati e validi:
+develop
+feature/username/ITEM-123456-new-username-label-1
+feature/home/ITEM-123456-lastname
+feature/about/ITEM-123456-description
 
 ---
 ### commit_type
@@ -58,9 +49,10 @@ mobile-about
 ---
 ### commit_validi-e-eseguiti
 ```
-feat(all-global): activate workflow on branch develop
-
-BREAKING CHANGE
+chore(all-doc): insert space between the links
+chore(all-doc): change the rule for the end line
+docs(all-doc): write new branch
+feat(all-global): activate workflow on branch develop BREAKING CHANGE
 feat(all-global): generic commit BREAKING CHANGE: this is a test
 feat(all-global): edited the file "release.yml" BREAKING CHANGE: update the prop "on"
 chore(all-global): update "actions/checkout" and "actions/setup-node" from version 2 to 3
