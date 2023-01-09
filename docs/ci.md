@@ -9,6 +9,7 @@ develop
 feature/username/ITEM-123456-new-username-label-1
 feature/home/ITEM-123456-lastname
 feature/about/ITEM-123456-description
+feature/global/ITEM-123456-semantic-release-config
 
 ---
 ### commit_type
@@ -49,6 +50,10 @@ mobile-about
 ---
 ### commit_validi-e-eseguiti
 ```
+feat(global): activate semantic-release action on merging feature branch on branch develop
+chore(global): update release.yml github action file
+docs(global): update ci.md file
+chore(global): update commitlint config file
 chore(all-doc): insert space between the links
 chore(all-doc): change the rule for the end line
 docs(all-doc): write new branch
