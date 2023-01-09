@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 // const prefixes = ['all', 'web', 'mobile'];
 const scopes = ['release', 'global', 'doc', 'page'];
 // const arr = scopes.map(scope =>

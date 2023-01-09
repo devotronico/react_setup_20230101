@@ -21,7 +21,7 @@
     ]
   },
   "validate-branch-name": {
-    "pattern": "^(master|develop){1}$|^(feature|chore|fix)/([\\w\\-\\d]+)/(ITEM|TIKET)-([\\w\\-\\d]+)$",
+    "pattern": "^(master|develop){1}$|^release/\\d+\\.\\d+\\.\\d+$|^hotfix/([\\w\\-\\d]+)$|^(feature|chore|fix)/([A-Z]){2}/([\\w\\-\\d]+)/([\\d]){6}/([\\w\\-\\d]+)$",
     "errorMsg": "Please follow standard branch name, rename branch using: git branch -m <oldname> <newname>"
   },
   "dependencies": {
@@ -32,6 +32,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
+    "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
     "@testing-library/jest-dom": "^5.16.5",
