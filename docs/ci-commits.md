@@ -26,6 +26,7 @@ page
 ---
 ### commit_validi-e-eseguiti
 ```
+docs: update the todolist with new tasks
 ci(global): update the file release.config
 docs(global): update ci documentation files
 chore(global): install library @semantic-release/changelog

@@ -13,3 +13,4 @@ feature/about/ITEM-123456-description
 feature/global/ITEM-123456-semantic-release-config
 feature/global/ITEM-000001-changelog
 fix/DM/changelog/000002/download-changelog-file
+chore/DM/postscss/000002/setup-postscss

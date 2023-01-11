@@ -27,12 +27,18 @@ con le seguenti librerie:
 
 - [x] Activating github action on pull request on branch develop
 
+- [ ] Css style
+
+- [ ] Automate testing
+
 - [ ] Compressing Staged Images
 
 - [ ] Skipping Hooks
 
 - [ ] Bloccare i push sul ramo master
 https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches
+
+- [ ] Link to Azure Devops
 
 ---
 ### percorso-del-progetto
