@@ -26,6 +26,13 @@ page
 ---
 ### commit_validi-e-eseguiti
 ```
+feat: setup postcss
+chore: install libs "postcss-import"
+chore: install libs "autoprefixer", "postcss-nesting"
+refactor(page): create folder "home" with files inside "Home.tsx", "home.css" and "index.ts"
+chore: add files ".prettierignore" and ".eslintignore"
+chore: add scripts "build:css" and "watch:css" in the file "package.json"
+chore: install libraries postcss and postcss-cli
 docs: update the todolist with new tasks
 ci(global): update the file release.config
 docs(global): update ci documentation files

@@ -46,6 +46,10 @@ D:\Sviluppo-Web-2\React-TS\react_setup_20230101
 
 ---
 ### reference
+https://proandroiddev.com/automating-software-development-workflows-with-github-actions-8dbe8eb04d3a
+
+https://github.com/Volcomix/vite-react-ts
+
 https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/
 
 https://levelup.gitconnected.com/improve-your-commits-and-versioning-in-javascript-56f72c0ab761

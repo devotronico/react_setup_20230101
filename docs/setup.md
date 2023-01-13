@@ -10,6 +10,18 @@ npm install
 ```
 
 ---
+### setup_postcss
+https://vitejs.dev/guide/features.html#postcss
+setup della libreria postcss per lo styling:
+```
+npm install -D postcss postcss-cli
+npm install -D postcss-nesting
+npm install -D autoprefixer
+npm install -D postcss-import
+npm install -D postcss-preset-env
+```
+
+---
 ### setup_eslint-e-prettier:
 ```
 npm install -D eslint
@@ -73,3 +85,8 @@ NOTE:
 
 release-\d+\.\d+\.\d*
 release-1.2.3
+
+
+---
+### setup_vscode
+https://dev.to/equiman/vite-powerful-react-project-g4m
