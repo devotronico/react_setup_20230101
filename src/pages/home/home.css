@@ -1,0 +1,10 @@
+.home {
+  color: green;
+  background-color: #eee;
+  & > .text {
+    & > .name {
+      color: red;
+      font-weight: bold;
+    }
+  }
+}
