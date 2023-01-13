@@ -27,6 +27,10 @@ con le seguenti librerie:
 
 - [x] Activating github action on pull request on branch develop
 
+- [ ] Css style
+
+- [ ] Automate testing
+
 - [ ] Compressing Staged Images
 
 - [ ] Skipping Hooks
@@ -34,12 +38,18 @@ con le seguenti librerie:
 - [ ] Bloccare i push sul ramo master
 https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches
 
+- [ ] Link to Azure Devops
+
 ---
 ### percorso-del-progetto
 D:\Sviluppo-Web-2\React-TS\react_setup_20230101
 
 ---
 ### reference
+https://proandroiddev.com/automating-software-development-workflows-with-github-actions-8dbe8eb04d3a
+
+https://github.com/Volcomix/vite-react-ts
+
 https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/
 
 https://levelup.gitconnected.com/improve-your-commits-and-versioning-in-javascript-56f72c0ab761
